@@ -1,0 +1,143 @@
+/*
+* {
+   outline: 2px solid yellow;   
+} 
+*/
+
+
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family:  'Trebuchet MS', Tahoma, Geneva, Verdana, sans-serif;
+    /*, Helvetica, Arial, sans-serif;*/
+  font-size: 16px;
+  box-sizing: border-box; 
+  margin: 0;
+  padding: 0;
+}
+
+/*
+*   TOP MENU & NAVIGATION 
+*/
+
+.topnav {
+  width: 100%;
+  background-color: black;
+  overflow: hidden;
+  align-items: center;
+  display: -webkit-flex;
+  display: flex;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+}
+
+.topnav maintitle {
+  width: 50%;
+  padding: 0.5em 1em;
+  font: italic small-caps bold 20px/20px Georgia, serif;
+  color:blue;
+
+}
+.topnav subtitle {
+  font: italic small-caps bold 16px/16px Georgia, serif;
+}
+.topnav mainmenu {
+  width: 50%;
+  justify-content: flex-end;
+  text-align: right;
+}
+.topnav a {
+  display: inline-block;
+  border: 2 solid white;
+  text-align: left;
+  padding: 0.5em 0.5em;
+  color:white;
+  font-size: normal;
+}
+.topnav-right {
+  float: right;
+}
+.topnav a:hover {
+  color: yellow;
+}
+
+/*
+*   SECTION ONE: MAIN (HOME) CONTENT 
+*/
+.content-header__container {
+  display: flex;
+  height: 40%;
+  /* height: 250px;  */
+  width: 80%;
+  margin: 0px auto;
+  border: 2px solid yellow; 
+  font-size: 14px;
+}
+
+.content-header__img-container {
+  display: flex;
+  height: 100%;
+  width: 200px;
+  min-width: 200px;
+  max-width: 200px;
+  border-radius: 20px;
+  /* border: 1px solid black; */
+  overflow:hidden;
+ 
+  float:left;
+}
+
+.content-header__img-container img {
+  width: 100%;
+  height: 100%; 
+  object-fit:fill;
+}
+
+.content-header--text {
+  padding: 5px 50px;
+  font-size: 14px;
+  color: blue;
+}
+
+.content-header--text h1 {
+  color:indigo;
+  font-size: 20px;
+  
+}
+
+.scrolldown_button {
+  align-self: flex-end;
+  float: right;
+  font-size: 15px;
+  color: blue;
+  padding: 10px;
+}
+
+/*
+*   SECTION ONE: MAIN CONTENT 
+*/
+
+
+.content-cottage-details {
+  height: 250px;
+  width: 80%;
+  margin: 10px auto;
+  border: 2px solid blue; 
+  font-size: 16px;
+  padding-left: 10px;
+}
+
+.dummy {
+  height: 250px;
+  width: 80%;
+  margin: 10px auto;
+  border: 2px solid blue; 
+  font-size: 16px;
+  padding-left: 10px;
+}
+
